@@ -12,7 +12,7 @@ function App() {
     try {
       const parsedInput = JSON.parse(input);
       console.log('Sending request with:', parsedInput);
-      const res = await axios.post('https://bajaj-ra2111029010002-backend.onrender.com/bfhl', parsedInput);  // Update the URL here
+      const res = await axios.post('https://bajaj-2-0.onrender.com/bfhl', parsedInput);  // Update the URL here
       console.log('Received response:', res.data);
       setResponse(res.data);
     } catch (error) {
