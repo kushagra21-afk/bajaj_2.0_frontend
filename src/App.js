@@ -27,11 +27,11 @@ function App() {
 
   const renderResponse = () => {
     if (!response) return null;
-    const { numbers, alphabets, highest_alphabet } = response;
+    const { numbers, alphabets, high_alphabet } = response;
     const filteredResponse = {};
     if (selectedOptions.includes('Numbers')) filteredResponse.numbers = numbers;
     if (selectedOptions.includes('Alphabets')) filteredResponse.alphabets = alphabets;
-    if (selectedOptions.includes('Highest alphabet')) filteredResponse.highest_alphabet = highest_alphabet;
+    if (selectedOptions.includes('Highest alphabet')) filteredResponse.high_alphabet = high_alphabet;
     
     return (
       <Box mt={2}>
