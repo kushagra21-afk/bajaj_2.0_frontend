@@ -31,7 +31,7 @@ function App() {
     const filteredResponse = {};
     if (selectedOptions.includes('Numbers')) filteredResponse.numbers = numbers;
     if (selectedOptions.includes('Alphabets')) filteredResponse.alphabets = alphabets;
-    if (selectedOptions.includes('Highest alphabet')) filteredResponse.high_alphabet = high_alphabet;
+    if (selectedOptions.includes('Highest alphabet')) filteredResponse.highest_alphabet = high_alphabet;
     
     return (
       <Box mt={2}>
